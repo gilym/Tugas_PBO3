@@ -104,7 +104,7 @@ public class Tugas  {
               lpersegi.setText("Luas Persegi Panjang         :   "  + persegi.templp);
               kpersegi.setText("keliling Persegi Panjang     :   " +persegi.tempk);
               lpbalok.setText ("Luas Permukaan Balok        :   "+balok.templp);
-              vbalok.setText ("Luas Permukaan Balok        :   " +balok.tempv);
+              vbalok.setText ("Volume Permukaan Balok        :   " +balok.tempv);
            }
            catch(Exception ex){
                JOptionPane.showMessageDialog(null, "Inputan Harus Berupa Angka");
